@@ -1,0 +1,68 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+   font-family: cursive;
+}
+
+#footer
+{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body::before
+{
+    content: " ";
+    inset: 0;
+    position: fixed;
+    z-index: -1;
+    background-image: url('img/cbit\ _logo.jpeg');
+    background-position:center;
+    background-attachment: fixed;
+    opacity: 0.1;
+    background-repeat: no-repeat;
+    background-size: 550px;
+}
+
+#body
+{
+    font-family: cursive;
+}
+
+#navcontainer
+{
+    display: flex;
+    /* flex-direction: column; */
+   
+}
+ #logout
+ {
+    justify-self: flex-end;
+ }
+
+ #oform
+ {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ #winners
+ {
+    /* background-color: rgba(0, 0, 0, 0.2) ; */
+    width: auto;
+ }
+
+ @media(max-width:1000px)
+ {
+    #oform{
+        margin: 10px;
+    }
+ }

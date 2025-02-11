@@ -1,0 +1,107 @@
+/* ||||||||||||||||||||||||  admin login |||||||||||||||||||||||||||| */
+
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family:cursive;
+}
+.outercontainer 
+{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#header
+{
+    box-shadow: 0 0 5px #000;
+}
+body::before
+{
+    content: " ";
+    inset: 0;
+    position: fixed;
+    z-index: -1;
+    background-image: url('img/cbit\ _logo.jpeg');
+    background-position:center;
+    background-attachment: fixed;
+    opacity: 0.1;
+    background-repeat: no-repeat;
+    background-size: 550px;
+}
+
+#footer
+{
+    width: auto;
+    height: 60px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#innercontainer
+{
+    width: 550px;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-evenly;
+
+}
+
+#loginform
+{
+    width: auto;
+    margin: auto;
+}
+
+#adminlogo
+{
+  font-size: 130px;
+}
+
+#input
+{
+    width: 25rem;
+}
+#input1
+{
+    width: 25rem;
+}
+
+@media (max-width:1000px) 
+{
+
+    #adminlogo
+    {
+        font-size: 90px;
+    }
+
+    #title
+    {
+        font-size: 25px;
+    }
+
+    #innercontainer
+    {
+        /* margin: 45px; */
+        /* margin-top: 10px; */
+        /* margin-bottom: 10px; */
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    
+}

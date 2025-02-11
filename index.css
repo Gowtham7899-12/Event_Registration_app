@@ -1,0 +1,146 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family:cursive;
+}
+
+#header
+{
+    box-shadow: 0 0 5px #000;
+}
+body::before
+{
+    content: " ";
+    inset: 0;
+    position: fixed;
+    z-index: -1;
+    background-image: url('img/cbit\ _logo.jpeg');
+    background-position:center;
+    background-attachment: fixed;
+    opacity: 0.1;
+    background-repeat: no-repeat;
+    background-size: 550px;
+}
+
+#footer
+{
+    width: auto;
+    height: 60px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#college
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0,0.1);
+    flex-wrap: wrap;
+}
+#img
+{
+   margin-right: 45px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+
+}
+
+#collegedetails
+{
+    text-align: center;
+    margin-right: 255px;
+   
+}
+#collegedetails h2 b
+{
+    font-family:'Times New Roman', Times, serif !important;
+    color:rgb(248, 98, 148);
+
+}
+
+#collegedetails h5 b
+{
+    font-family:'Times New Roman', Times, serif ;
+
+}
+#collegedetails h5
+{
+    font-family:'Times New Roman', Times, serif ;
+
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+@media (max-width:1000px) 
+{
+
+    *
+    {
+        font-size: 1rem;
+    }
+
+    #collegedetails
+    {
+        /* text-align: center; */
+        margin: auto;
+        margin-top: 20px;
+
+    }
+    #img
+    {
+        margin-top: 20px;
+    }
+    .carousel-item 
+    {
+        width: auto;
+        height: 150px;
+    }
+
+    #carousel
+    {
+        height: 360px;
+    }
+
+    #cards
+    {
+    justify-content: center;
+    }
+
+ 
+}
+
+/* || carousel */
+
+#carousel
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px #000;
+}
+
+.carousel-item 
+{
+    width: auto;
+    height: 600px;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||cards|||||||||||||||||||||||||||||| */
+#cards
+{
+   display: flex;
+   flex-wrap: wrap;
+   /* justify-content: space-around; */
+}
+
+#registerbtn:hover
+{
+    background-color: white;
+    color: orange;
+    border-color: orange;
+}
+
